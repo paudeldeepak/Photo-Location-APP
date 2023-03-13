@@ -1,2 +1,6 @@
 # Ignore files related to API keys
 env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
