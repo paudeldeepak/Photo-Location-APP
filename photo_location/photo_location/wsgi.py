@@ -1,5 +1,5 @@
 """
-WSGI config for clickLocations project.
+WSGI config for photo_location project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'clickLocations.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'photo_location.settings')
 
 application = get_wsgi_application()
